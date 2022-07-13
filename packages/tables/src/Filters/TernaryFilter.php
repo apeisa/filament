@@ -4,7 +4,7 @@ namespace Filament\Tables\Filters;
 
 use Closure;
 use Filament\Forms\Components\Select;
-use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Contracts\Database\Eloquent\Builder;
 
 class TernaryFilter extends SelectFilter
 {
